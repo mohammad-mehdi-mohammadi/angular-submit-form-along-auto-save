@@ -1,6 +1,6 @@
 import {Component, OnInit, OnDestroy} from '@angular/core';
-import {fromEvent, Observable, of, Subject, Subscription} from 'rxjs';
-import {debounceTime, delay, distinctUntilChanged, map, mergeMap} from 'rxjs/operators';
+import {Subject, Subscription} from 'rxjs';
+import {debounceTime, map} from 'rxjs/operators';
 
 @Component({
     selector: 'app-form',
