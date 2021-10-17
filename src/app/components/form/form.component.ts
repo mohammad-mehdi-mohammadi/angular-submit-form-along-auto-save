@@ -10,7 +10,6 @@ import {debounceTime, map} from 'rxjs/operators';
 export class FormComponent implements OnInit, OnDestroy {
     private formSubscription: Subscription;
     public keyUp = new Subject<KeyboardEvent>();
-    subject = new Subject();
 
     constructor() {
         this.action();
