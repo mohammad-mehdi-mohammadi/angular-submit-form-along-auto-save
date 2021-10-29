@@ -31,7 +31,7 @@ private action(): void {
 
 
   
-- **Declare submit**: when user clicks on submit button `formSubscription` subscription will be unsubscribed, after service response will be set again.
+- **Submit declaration**: when user clicks on submit button `formSubscription` subscription will be unsubscribed, it will be set again after service response.
 
 
 `````angularjs
