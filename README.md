@@ -17,7 +17,7 @@ public keyUp = new Subject<KeyboardEvent>();
    
 
 
-- **Declare key up event subscription**
+- **Key up event subscription declaration**
 ```angularjs
 private action(): void {
   this.formSubscription = this.keyUp.pipe(
@@ -45,7 +45,7 @@ public submit(): void {
 }
 `````
 
-- **Initialize subscription to listen to key up event**
+- **Subscription initialization to listen to key up event**
 ```angularjs
 constructor() {
    this.action();
